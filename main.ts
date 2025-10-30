@@ -1,8 +1,24 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: XXX
- * Created on: Sep 2020
+ * Created by:Mercy 
+ * Created on: Oct 2025
  * This program ...
 */
 
-basic.showString('Hello, World!')
+// variable
+let distanceOfObstacle: number = 0
+
+// clean
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+
+// car start
+while (true) {
+    distanceOfObstacle = sonar.ping(
+    DigitalPin.P12,
+    DigitalPin.P13,
+    PingUnit.Centimeters
+    )
+   
+
+}
