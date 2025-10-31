@@ -15,10 +15,12 @@ basic.showIcon(IconNames.Happy)
 // car start
 while (true) {
     distanceOfObstacle = sonar.ping(
-    DigitalPin.P12,
-    DigitalPin.P13,
-    PingUnit.Centimeters
+        DigitalPin.P12,
+        DigitalPin.P13,
+        PingUnit.Centimeters
     )
-   
+   if (distanceOfObstacle > 10) {
+       
+   }
 
 }
