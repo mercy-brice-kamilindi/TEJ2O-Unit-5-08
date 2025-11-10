@@ -30,4 +30,3 @@ while (true) {
     robotbit.StpCarMove(-10, 48)
     robotbit.StepperTurn(robotbit.Steppers.M1, robotbit.Turns.T1B4)
 }
-
