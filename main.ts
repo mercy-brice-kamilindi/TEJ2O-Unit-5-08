@@ -14,8 +14,8 @@ basic.showIcon(IconNames.Happy)
 
 while (true) {
     distanceToObject = sonar.ping(
-        DigitalPin.P11,
         DigitalPin.P12,
+        DigitalPin.P13,
         PingUnit.Centimeters
     )
     basic.clearScreen()
